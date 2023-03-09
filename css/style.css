@@ -300,3 +300,46 @@ body {
     font-size: 16px;
     color: #8B8E99;
 }
+
+.newsletter {
+    margin-bottom: 91px;
+    background: #F6F6F6;
+    border-radius: 22px;
+}
+
+.newsletter__inner {
+    padding: 38px 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter__text h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #1E1D1D
+}
+
+.newsletter__text p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #8B8E99;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.sub {
+    padding: 12px 28px;
+    width: 131px;
+    height: 45px;
+    background: #3858D6;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
