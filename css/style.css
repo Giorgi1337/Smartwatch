@@ -7,7 +7,9 @@
 body {
     font-family: 'Outfit','Roboto',sans-serif;
 }
-
+/* p {
+    margin: 0;
+} */
 .header {
     background: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
 }
@@ -60,6 +62,9 @@ body {
     gap: 15px;
 }
 
+.nav__logos span {
+    cursor: pointer;
+}
 
 .main__content {
     padding: 45px 0px 107px;
@@ -90,6 +95,7 @@ body {
     font-size: 18px;
     color: #FFFFFF;
     padding: 10px 48px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1140px) {
@@ -97,4 +103,71 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+.section1 {
+    background: #fff;
+}
+
+.container__inner {
+    padding-top: 57px;
+    padding-bottom: 90px;
+}
+
+.watch__items {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.watch__item {
+    display: flex;
+    align-items: center;
+    padding: 46px 51px 44px 41px;
+    width: 354px;
+    height: 239px;
+    background: #F6F6F6;
+    border-radius: 22px;
+}
+
+.watch__item img {
+    margin-right: 26px;
+}
+
+.watch__text p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1E1D1D;
+}
+
+.watch__text span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8B8E99;
+    margin-top: 9px;
+}
+
+.watch__item:nth-child(2) {
+    padding: 44px 25px 43px 40px;
+}
+.watch__item:nth-child(3) {
+    padding: 46px 21px 43px 39px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title a {
+    text-decoration: none;
+    color: #3858D6;
+}
+
+.title p {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #1E1D1D;
 }
