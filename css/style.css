@@ -7,9 +7,7 @@
 body {
     font-family: 'Outfit','Roboto',sans-serif;
 }
-/* p {
-    margin: 0;
-} */
+
 .header {
     background: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
 }
@@ -350,6 +348,7 @@ body {
 .foother__text{
     text-align: center;
     display: flex;
+    min-height: 65px;
     justify-content: center;
     align-items: center;
     color: #fff;
